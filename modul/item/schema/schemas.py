@@ -18,7 +18,7 @@ class Item(BaseModel):
         pattern=r'^[a-z0-9]+$',
         title='Username',
         description='must be alpha-numeric',
-        example='Wirasa3127'
+        example='wirasa3127'
     )
 
     email: EmailStr = Field(..., description="Valid email address", example="user@email.com")
